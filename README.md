@@ -1,24 +1,23 @@
-# SoppingCart
+# OrionBank
 
 
 ![header](https://capsule-render.vercel.app/api?type=cylinder&color=0:EEFF00,100:a82da8&height=150&section=header&text=Hello%20World!&fontSize=30&desc=Welcome%20To%20My%20Future%0ABouce&animation=scaleIn&fontAlign=20&rotate=-30)
 
- ## Shopping Cart App
+ ## Orion Bank App
 
-This app is built with Strapi, Postman, Express, React, ReactDom, Axios, Bootstrap, ReactHooks.
+This app is built with MERN and firebase, Redux, Bootstrap.
 
 <p>
 Added features:
-* Changed look of the page and Title
-* Fetched data from Strapi
-* Fixed the code
+* Authentication and Authorization
+* able to use Google signin
+* 3 tier architechture
 
 
-Other Stack features Used to build this app: CSS, HTML, JavaScripts, React
 </p>
 <br/>
 
-<img src="./SSScart.jpg" width="500"/>
+<img src="./ss-home.jpg" width="500"/>
 <br/>
 
 
@@ -36,13 +35,13 @@ Other Stack features Used to build this app: CSS, HTML, JavaScripts, React
 >This application is compatible with the most commonly used web browsers.
 >
 >Quick Start:
-> * git clone https://github.com/ShoppingCart
-> * cd atm    
+> * git clone https://github.com/orionbank
+> * cd orionbank    
 > * npm install
 > * npm start
 > 
 >Script Description:
-> * cd command use to change the path to the shoppingcart files folder
+> * cd command use to change the path to the orionbank files folder
 > * npm start command starts webpack development server @ localhost:3000
 >
 > *Fork a repo:
@@ -55,7 +54,7 @@ Other Stack features Used to build this app: CSS, HTML, JavaScripts, React
 ## Prerequisites:
 * install React
 * install npm
-* install strapi, Express, Postman
+* install Mongodb, mongoose, Express, redux, redux-toolkit, react-dom
  
  
 ## Contact:  
@@ -70,10 +69,9 @@ Other Stack features Used to build this app: CSS, HTML, JavaScripts, React
 ## Improvements:
 
 Future Improvements to add in the ATM App
-* fetch images from strapi
-* Add Express code
-* look and style improvements
-* restock functionality to fix for a single product
+* under development
+* role base authorization
+
 
 
 ## Technologies:
