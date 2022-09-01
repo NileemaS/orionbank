@@ -1,0 +1,139 @@
+.dataOuter{
+  width:100%;
+  height: 62rem;
+  font-size: 1.5em;
+}
+.imgAD{
+  width: 10rem;
+  height: 15rem;
+}
+
+.divDataImg{
+    box-shadow: inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+
+.divDataTbl{
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5) ;
+}
+
+  .ADbox1{
+  box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+  }
+  .ADbox2{
+    width: 100%;
+    height: 62rem;
+    background-color: #dde1e7;
+    border-radius: 1rem;
+  box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+  }
+  .ADcircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+  }
+  .ADcircle::after{
+    content: '';
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+  }
+  
+  /* */
+  button.print-button {
+    width: 100px;
+    height: 100px;
+  }
+  span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+    border: solid 4px #333;
+  }
+  span.print-icon::after {
+    border-width: 2px;
+  }
+  
+  button.print-button {
+    position: relative;
+    padding: 0;
+    border: 0;
+    
+    border: none;
+    background: transparent;
+  }
+  
+  span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+  span.print-icon {
+    position: relative;
+    display: inline-block;  
+    padding: 0;
+    margin-top: 20%;
+  
+    width: 60%;
+    height: 35%;
+    background: #fff;
+    border-radius: 20% 20% 0 0;
+  }
+  
+  span.print-icon::before {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 12%;
+    right: 12%;
+    height: 110%;
+  
+    transition: height .2s .15s;
+  }
+  
+  span.print-icon::after {
+    content: " ";
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    right: 12%;
+    height: 0%;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: 70% 90%;
+    background-position: center;
+    background-image: linear-gradient(
+      to top,
+      #fff 0, #fff 14%,
+      #333 14%, #333 28%,
+      #fff 28%, #fff 42%,
+      #333 42%, #333 56%,
+      #fff 56%, #fff 70%,
+      #333 70%, #333 84%,
+      #fff 84%, #fff 100%
+    );
+  
+    transition: height .2s, border-width 0s .2s, width 0s .2s;
+  }
+  
+  button.print-button:hover {
+    cursor: pointer;
+    background-color: #dde1e7;
+  }
+  
+  button.print-button:hover .print-icon::before {
+    height:0px;
+    transition: height .2s;
+  }
+  button.print-button:hover .print-icon::after {
+    height:120%;
+    transition: height .2s .15s, border-width 0s .16s;
+  }
+  .tableBdy {
+    width: 100%;
+    height: 58rem;
+    overflow-y: scroll;
+    padding: 1rem;
+  }

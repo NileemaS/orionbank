@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RowTwo matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="container text-center"
+  >
+    <h3>
+      What We Can Do Today
+    </h3>
+    <br />
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm-3"
+      >
+        <Image
+          alt="Image"
+          className="Image-responsive"
+          fluid={false}
+          rounded={false}
+          roundedCircle={false}
+          src="/img/imgbitcoin.jpg"
+          style={
+            Object {
+              "width": "70%",
+            }
+          }
+          thumbnail={false}
+        />
+        <h4>
+          We accept 
+          <br />
+           Bitcoins 
+          <br />
+           With Other Currencies
+        </h4>
+      </div>
+      <div
+        className="col-sm-3"
+      >
+        <Image
+          alt="Image"
+          className="Image-responsive"
+          fluid={false}
+          rounded={false}
+          roundedCircle={false}
+          src="/img/imgbond.jpg"
+          style={
+            Object {
+              "width": "70%",
+            }
+          }
+          thumbnail={false}
+        />
+        <h4>
+          Invest in Our 
+          <br />
+           Bonds
+        </h4>
+      </div>
+      <div
+        className="col-sm-3"
+      >
+        <Btnlink
+          varHref="/CreateAccount/"
+          varName="Create Account"
+        />
+        <Btnlink
+          varHref="/Deposit/"
+          varName="Deposit"
+        />
+      </div>
+      <div
+        className="col-sm-3"
+      >
+        <Btnlink
+          varHref="/Withdraw/"
+          varName="Withdraw"
+        />
+        <Btnlink
+          varHref="/AllData/"
+          varName="All Data"
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
