@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# SoppingCart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![header](https://capsule-render.vercel.app/api?type=cylinder&color=0:EEFF00,100:a82da8&height=150&section=header&text=Hello%20World!&fontSize=30&desc=Welcome%20To%20My%20Future%0ABouce&animation=scaleIn&fontAlign=20&rotate=-30)
 
-In the project directory, you can run:
+ ## Shopping Cart App
 
-### `npm start`
+This app is built with Strapi, Postman, Express, React, ReactDom, Axios, Bootstrap, ReactHooks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>
+Added features:
+* Changed look of the page and Title
+* Fetched data from Strapi
+* Fixed the code
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Other Stack features Used to build this app: CSS, HTML, JavaScripts, React
+</p>
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="./SSScart.jpg" width="500"/>
+<br/>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Table of Contents 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Installation](#installation)
+* [Prerequisites](#prerequisites)
+* [Improvements](#improvements)
+* [Technologies](#technologies)
+* [Github Stats and License](#stats) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation:
+>
+>This application is compatible with the most commonly used web browsers.
+>
+>Quick Start:
+> * git clone https://github.com/ShoppingCart
+> * cd atm    
+> * npm install
+> * npm start
+> 
+>Script Description:
+> * cd command use to change the path to the shoppingcart files folder
+> * npm start command starts webpack development server @ localhost:3000
+>
+> *Fork a repo:
+>A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+> [How to Fork? Click here for the Instructions](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+>
+>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Prerequisites:
+* install React
+* install npm
+* install strapi, Express, Postman
+ 
+ 
+## Contact:  
+ 
+- <a href="mailto:nileemashah@yahoo.com"><img src = "https://user-images.githubusercontent.com/96500743/159628684-930b27c8-946a-4107-aebe-5f7046b9f6c5.png" alt="Email" />Email Me </a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- <a href="https://www.linkedin.com/feed/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin& logoColor=white" alt="LinkedIn Badge"/> Connect Me </a> 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- <a href="https://github.com/NileemaS/NileemaS.github.io/blob/main/README.md"><img src = "./img/githubicon.png" alt="github icon img" />README for Bio </a>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Improvements:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Future Improvements to add in the ATM App
+* fetch images from strapi
+* Add Express code
+* look and style improvements
+* restock functionality to fix for a single product
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies:
 
-### Analyzing the Bundle Size
+<p>
+    <img src="https://img.shields.io/badge/-HTML-orange?style=for-the-badge"  alt="HMTL" />
+    <img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge" alt="CSS" />
+    <img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge" alt="Javascript" />
+    <img src="https://img.shields.io/badge/-Bootstrap-blueviolet?style=for-the-badge" alt="Bootstrap" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ <p float="left">
+  <img src="https://user-images.githubusercontent.com/96500743/156902929-21b303ee-e8ce-4f7e-97ea-9c722890ecbe.png" width="500" /></p>
+    
+  
+## Stats:
 
-### Making a Progressive Web App
+![Nileema's GitHub stats](https://github-readme-stats.vercel.app/api?username=NileemaS&show_icons=true&hide=contribs&theme=gruvbox_light)
+[![Langs Used for Dev](https://github-readme-stats.vercel.app/api/top-langs/?username=NileemaS&custom_title=Languages%20Used&theme=gruvbox_light&hide=Dockerfile&layout=compact)](https://github.com/NileemaS/github-readme-stats)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### License ([^note]) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[^note]:
+    Copyrights @2022, All rights are reserved  <img align="center" src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" />  
